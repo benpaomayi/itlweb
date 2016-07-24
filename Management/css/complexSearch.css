@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+.content {
+	width:1000px;
+	margin:0 auto !important; 
+	font-size:14px;
+}
+.select {
+	color:#009;
+	width:170px;
+	height:245px;
+	float:left;
+	padding-left:30px;
+	background-color:#f5f5f5;
+}
+.bar {
+	width:20px;
+	height:245px;
+	float:left;
+	background-color:#f5f5f5;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#f5f5f5,endColorStr=#c3c3c3);/*ie*/
+	background:-moz-linear-gradient(left,#f5f5f5,#c3c3c3);/*火狐*/ 
+	background:-webkit-gradient(linear, 0% 0%, 100% 0%,from(#f5f5f5), to(#c3c3c3));/*谷歌*/ 
+	background:-ms-linear-gradient(left, #f5f5f5, #c3c3c3); /*ie10*/
+}
+.condition {
+	float:left;
+	width:780px;
+	height:245px;
+	background-color:#f5f5f5;
+}
+.p_homepage {
+	display:block !important;
+	margin:0;
+	padding-right:50px;
+	padding-top:10px;
+	text-align:right;
+}
+.condition div {
+	margin-top:2px;
+	margin-left:60px;
+}
+.condition input[type="text"] {
+	margin-bottom:8px;
+	width:200px;
+}
+.condition span {
+	width:70px;
+	display:inline-block;
+	vertical-align:middle;
+} 
+.time {
+	width:60px !important;
+}
+#div_time{
+	margin-top:0;
+}
+#img_comsearch {
+	margin-top:10px;
+	margin-left:260px;
+}
